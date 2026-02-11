@@ -1,0 +1,7 @@
+stage,filter,n_households,n_dropped,pct_remaining
+0,All CAMS households,8294,0,100.0
+1,Spending data all 5 waves (cstot),1953,6341,23.547142512659754
+2,"Spending > $10,000 each wave",1681,272,20.26766337111165
+3,Retired ALL waves (strict),823,858,9.92283578490475
+4,|Annualized change| < 50%,691,132,8.331323848565228
+5,Age range 60-85,679,12,8.186640945261635

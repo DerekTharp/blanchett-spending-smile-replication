@@ -1,0 +1,416 @@
+method,period,age_sq,age,ln_exp,constant,r2_polynomial,n_obs,n_households,r2,age_sq_se,age_se,ln_exp_se,r2_within,model_obj,time_effects,r2_between,age_sq_mean,age_mean,ln_exp_mean,age_sq_mean_se,age_mean_se,ln_exp_mean_se
+Blanchett-style,2001-2009,0.00014290133946907686,-0.02175580906883857,-0.0735288058434294,1.5913897635501837,0.1944804204374907,8664,3168,,,,,,,,,,,,,,
+Pooled OLS,2001-2009,0.00011009235138229701,-0.019996093814331675,-0.1761624895794944,2.7109637211054465,,8664,3168,0.16397734239525819,4.132558201326282e-05,0.0060303757353805405,0.005003498484037995,,,,,,,,,,
+Fixed Effects,2001-2009,-0.0014288807821190414,0.1873469061124643,-0.5737610761865796,,,8664,3168,,2.7201518003218637e-05,0.0030210287811093415,0.008528233355110193,0.5629151136283681,"                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:       pct_change_total   R-squared:                        0.5629
+Estimator:                   PanelOLS   R-squared (Between):             -3.3256
+No. Observations:                8664   R-squared (Within):               0.5629
+Date:                Tue, Feb 10 2026   R-squared (Overall):             -0.8805
+Time:                        12:32:42   Log-likelihood                    4200.1
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      3537.8
+Entities:                        3168   P-value                           0.0000
+Avg Obs:                       2.7348   Distribution:                  F(2,5494)
+Min Obs:                       1.0000                                           
+Max Obs:                       4.0000   F-statistic (robust):             2270.4
+                                        P-value                           0.0000
+Time periods:                       4   Distribution:                  F(2,5494)
+Avg Obs:                       2166.0                                           
+Min Obs:                       2107.0                                           
+Max Obs:                       2196.0                                           
+                                                                                
+                              Parameter Estimates                              
+===============================================================================
+             Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-------------------------------------------------------------------------------
+age_sq         -0.0014   2.72e-05    -52.529     0.0000     -0.0015     -0.0014
+age_int         0.1873     0.0030     62.014     0.0000      0.1814      0.1933
+ln_spending    -0.5738     0.0085    -67.278     0.0000     -0.5905     -0.5570
+===============================================================================
+
+F-test for Poolability: 2.6272
+P-value: 0.0000
+Distribution: F(3167,5494)
+
+Included effects: Entity",False,,,,,,,
+Random Effects,2001-2009,0.00014681970685552273,-0.026874790836415047,-0.24723594083936348,,,8664,3168,,4.501729577358344e-05,0.006580945066990284,0.00589833832118512,0.3891510869535181,"                        RandomEffects Estimation Summary                        
+================================================================================
+Dep. Variable:       pct_change_total   R-squared:                        0.2361
+Estimator:              RandomEffects   R-squared (Between):             -0.2761
+No. Observations:                8664   R-squared (Within):               0.3892
+Date:                Tue, Feb 10 2026   R-squared (Overall):              0.1373
+Time:                        12:32:42   Log-likelihood                    1005.7
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      892.29
+Entities:                        3168   P-value                           0.0000
+Avg Obs:                       2.7348   Distribution:                  F(3,8660)
+Min Obs:                       1.0000                                           
+Max Obs:                       4.0000   F-statistic (robust):             589.45
+                                        P-value                           0.0000
+Time periods:                       4   Distribution:                  F(3,8660)
+Avg Obs:                       2166.0                                           
+Min Obs:                       2107.0                                           
+Max Obs:                       2196.0                                           
+                                                                                
+                              Parameter Estimates                              
+===============================================================================
+             Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-------------------------------------------------------------------------------
+const           3.7545     0.2491     15.075     0.0000      3.2663      4.2427
+age_sq          0.0001  4.502e-05     3.2614     0.0011   5.858e-05      0.0002
+age_int        -0.0269     0.0066    -4.0837     0.0000     -0.0398     -0.0140
+ln_spending    -0.2472     0.0059    -41.916     0.0000     -0.2588     -0.2357
+===============================================================================",,-0.27605048163619395,,,,,,
+Fixed Effects (time),2001-2009,,,-0.5841104825633071,,,8664,3168,,,,0.010205496210629732,0.36164508890538605,"                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:       pct_change_total   R-squared:                        0.5812
+Estimator:                   PanelOLS   R-squared (Between):             -7.0482
+No. Observations:                8664   R-squared (Within):               0.3616
+Date:                Tue, Feb 10 2026   R-squared (Overall):             -2.3421
+Time:                        12:32:42   Log-likelihood                    4432.9
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      3809.6
+Entities:                        3168   P-value                           0.0000
+Avg Obs:                       2.7348   Distribution:                  F(2,5491)
+Min Obs:                       1.0000                                           
+Max Obs:                       4.0000   F-statistic (robust):             1642.8
+                                        P-value                           0.0000
+Time periods:                       4   Distribution:                  F(2,5491)
+Avg Obs:                       2166.0                                           
+Min Obs:                       2107.0                                           
+Max Obs:                       2196.0                                           
+                                                                                
+                              Parameter Estimates                              
+===============================================================================
+             Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-------------------------------------------------------------------------------
+age_sq         -0.0007  8.003e-05    -9.0637     0.0000     -0.0009     -0.0006
+age_int         0.1383     0.0061     22.553     0.0000      0.1263      0.1503
+ln_spending    -0.5841     0.0102    -57.235     0.0000     -0.6041     -0.5641
+===============================================================================
+
+F-test for Poolability: 2.8638
+P-value: 0.0000
+Distribution: F(3170,5491)
+
+Included effects: Entity, Time",True,,,,,,,
+Blanchett-style,2005-2021,0.00014345256935724586,-0.020992376044400806,-0.0552442118374831,1.3362262222694672,0.41517876162302025,17993,4624,,,,,,,,,,,,,,
+Pooled OLS,2005-2021,5.4762344744979134e-05,-0.009987463687350918,-0.14410632416756264,1.937828124267394,,17993,4624,0.13002850795351806,2.4273570564398086e-05,0.0035442331067887497,0.003337448899746763,,,,,,,,,,
+Fixed Effects,2005-2021,-7.4397956394163026e-06,-0.00890265847826345,-0.5014664209729247,,,17993,4624,,4.0759373064571145e-05,0.00593680465918771,0.005583026931519396,0.4641584755848598,"                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:       pct_change_total   R-squared:                        0.4642
+Estimator:                   PanelOLS   R-squared (Between):             -1680.2
+No. Observations:               17993   R-squared (Within):               0.4642
+Date:                Tue, Feb 10 2026   R-squared (Overall):             -645.01
+Time:                        12:32:42   Log-likelihood                    7846.2
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      3859.3
+Entities:                        4624   P-value                           0.0000
+Avg Obs:                       3.8912   Distribution:                 F(3,13366)
+Min Obs:                       1.0000                                           
+Max Obs:                       9.0000   F-statistic (robust):             2711.7
+                                        P-value                           0.0000
+Time periods:                       9   Distribution:                 F(3,13366)
+Avg Obs:                       1999.2                                           
+Min Obs:                       1565.0                                           
+Max Obs:                       2192.0                                           
+                                                                                
+                              Parameter Estimates                              
+===============================================================================
+             Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-------------------------------------------------------------------------------
+age_sq       -7.44e-06  4.076e-05    -0.1825     0.8552  -8.733e-05   7.245e-05
+age_int        -0.0089     0.0059    -1.4996     0.1337     -0.0205      0.0027
+ln_spending    -0.5015     0.0056    -89.820     0.0000     -0.5124     -0.4905
+===============================================================================
+
+F-test for Poolability: 2.6832
+P-value: 0.0000
+Distribution: F(4623,13366)
+
+Included effects: Entity",False,,,,,,,
+Random Effects,2005-2021,4.591284138378554e-05,-0.00951203764255395,-0.204363996590168,,,17993,4624,,2.5934641419633515e-05,0.0037866807776239988,0.003828490656115974,0.3014304597683256,"                        RandomEffects Estimation Summary                        
+================================================================================
+Dep. Variable:       pct_change_total   R-squared:                        0.1861
+Estimator:              RandomEffects   R-squared (Between):             -0.2643
+No. Observations:               17993   R-squared (Within):               0.3014
+Date:                Tue, Feb 10 2026   R-squared (Overall):              0.1071
+Time:                        12:32:42   Log-likelihood                    2929.6
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      1370.7
+Entities:                        4624   P-value                           0.0000
+Avg Obs:                       3.8912   Distribution:                 F(3,17989)
+Min Obs:                       1.0000                                           
+Max Obs:                       9.0000   F-statistic (robust):             951.24
+                                        P-value                           0.0000
+Time periods:                       9   Distribution:                 F(3,17989)
+Avg Obs:                       1999.2                                           
+Min Obs:                       1565.0                                           
+Max Obs:                       2192.0                                           
+                                                                                
+                              Parameter Estimates                              
+===============================================================================
+             Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-------------------------------------------------------------------------------
+const           2.5741     0.1441     17.869     0.0000      2.2917      2.8565
+age_sq       4.591e-05  2.593e-05     1.7703     0.0767  -4.922e-06   9.675e-05
+age_int        -0.0095     0.0038    -2.5120     0.0120     -0.0169     -0.0021
+ln_spending    -0.2044     0.0038    -53.380     0.0000     -0.2119     -0.1969
+===============================================================================",,-0.2642720719087588,,,,,,
+Fixed Effects (time),2005-2021,,,-0.5062751910715513,,,17993,4624,,,,0.0064407067608500115,0.3471931115481086,"                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:       pct_change_total   R-squared:                        0.4700
+Estimator:                   PanelOLS   R-squared (Between):             -982.74
+No. Observations:               17993   R-squared (Within):               0.3472
+Date:                Tue, Feb 10 2026   R-squared (Overall):             -375.86
+Time:                        12:32:42   Log-likelihood                    7959.1
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      3948.1
+Entities:                        4624   P-value                           0.0000
+Avg Obs:                       3.8912   Distribution:                 F(3,13358)
+Min Obs:                       1.0000                                           
+Max Obs:                       9.0000   F-statistic (robust):             2067.0
+                                        P-value                           0.0000
+Time periods:                       9   Distribution:                 F(3,13358)
+Avg Obs:                       1999.2                                           
+Min Obs:                       1565.0                                           
+Max Obs:                       2192.0                                           
+                                                                                
+                              Parameter Estimates                              
+===============================================================================
+             Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-------------------------------------------------------------------------------
+age_sq      -4.399e-06  4.732e-05    -0.0930     0.9259  -9.715e-05   8.836e-05
+age_int         0.0111     0.0073     1.5180     0.1290     -0.0032      0.0255
+ln_spending    -0.5063     0.0064    -78.606     0.0000     -0.5189     -0.4937
+===============================================================================
+
+F-test for Poolability: 2.7472
+P-value: 0.0000
+Distribution: F(4631,13358)
+
+Included effects: Entity, Time",True,,,,,,,
+Blanchett-style,2011-2021,0.00015315943973550912,-0.02246343015606928,-0.05553392229246554,1.3972856990107645,0.3060044023738937,11525,3735,,,,,,,,,,,,,,
+Pooled OLS,2011-2021,3.413874364875484e-05,-0.006551739856764629,-0.1361480011652745,1.7184999401709493,,11525,3735,0.1172376310054245,3.0420956056687956e-05,0.0044365641338686744,0.0038573924187525845,,,,,,,,,,
+Fixed Effects,2011-2021,-5.103758642125662e-05,-0.00048238710642794873,-0.5485373157123632,,,11525,3735,,6.0771091954411125e-05,0.008841872228709352,0.007068519920303678,0.48866785068521335,"                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:       pct_change_total   R-squared:                        0.4887
+Estimator:                   PanelOLS   R-squared (Between):             -1695.6
+No. Observations:               11525   R-squared (Within):               0.4887
+Date:                Tue, Feb 10 2026   R-squared (Overall):             -676.11
+Time:                        12:32:42   Log-likelihood                    5664.9
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      2480.6
+Entities:                        3735   P-value                           0.0000
+Avg Obs:                       3.0857   Distribution:                  F(3,7787)
+Min Obs:                       1.0000                                           
+Max Obs:                       6.0000   F-statistic (robust):             2038.1
+                                        P-value                           0.0000
+Time periods:                       6   Distribution:                  F(3,7787)
+Avg Obs:                       1920.8                                           
+Min Obs:                       1565.0                                           
+Max Obs:                       2152.0                                           
+                                                                                
+                              Parameter Estimates                              
+===============================================================================
+             Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-------------------------------------------------------------------------------
+age_sq      -5.104e-05  6.077e-05    -0.8398     0.4010     -0.0002   6.809e-05
+age_int        -0.0005     0.0088    -0.0546     0.9565     -0.0178      0.0169
+ln_spending    -0.5485     0.0071    -77.603     0.0000     -0.5624     -0.5347
+===============================================================================
+
+F-test for Poolability: 2.4202
+P-value: 0.0000
+Distribution: F(3734,7787)
+
+Included effects: Entity",False,,,,,,,
+Random Effects,2011-2021,2.8407753982426736e-05,-0.006122322914119051,-0.17695838101702288,,,11525,3735,,3.2407884883387535e-05,0.0047276911242814575,0.004385828333917357,0.2645577588498176,"                        RandomEffects Estimation Summary                        
+================================================================================
+Dep. Variable:       pct_change_total   R-squared:                        0.1538
+Estimator:              RandomEffects   R-squared (Between):             -0.1587
+No. Observations:               11525   R-squared (Within):               0.2646
+Date:                Tue, Feb 10 2026   R-squared (Overall):              0.1066
+Time:                        12:32:42   Log-likelihood                    1725.2
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      697.92
+Entities:                        3735   P-value                           0.0000
+Avg Obs:                       3.0857   Distribution:                 F(3,11521)
+Min Obs:                       1.0000                                           
+Max Obs:                       6.0000   F-statistic (robust):             542.79
+                                        P-value                           0.0000
+Time periods:                       6   Distribution:                 F(3,11521)
+Avg Obs:                       1920.8                                           
+Min Obs:                       1565.0                                           
+Max Obs:                       2152.0                                           
+                                                                                
+                              Parameter Estimates                              
+===============================================================================
+             Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-------------------------------------------------------------------------------
+const           2.1399     0.1782     12.012     0.0000      1.7907      2.4891
+age_sq       2.841e-05  3.241e-05     0.8766     0.3807  -3.512e-05   9.193e-05
+age_int        -0.0061     0.0047    -1.2950     0.1953     -0.0154      0.0031
+ln_spending    -0.1770     0.0044    -40.348     0.0000     -0.1856     -0.1684
+===============================================================================",,-0.1587498547168824,,,,,,
+Fixed Effects (time),2011-2021,,,-0.5497182625267498,,,11525,3735,,,,0.008563390107632013,0.4533979265225162,"                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:       pct_change_total   R-squared:                        0.4906
+Estimator:                   PanelOLS   R-squared (Between):             -1126.2
+No. Observations:               11525   R-squared (Within):               0.4534
+Date:                Tue, Feb 10 2026   R-squared (Overall):             -448.38
+Time:                        12:32:42   Log-likelihood                    5692.9
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      2498.4
+Entities:                        3735   P-value                           0.0000
+Avg Obs:                       3.0857   Distribution:                  F(3,7782)
+Min Obs:                       1.0000                                           
+Max Obs:                       6.0000   F-statistic (robust):             1377.6
+                                        P-value                           0.0000
+Time periods:                       6   Distribution:                  F(3,7782)
+Avg Obs:                       1920.8                                           
+Min Obs:                       1565.0                                           
+Max Obs:                       2152.0                                           
+                                                                                
+                              Parameter Estimates                              
+===============================================================================
+             Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-------------------------------------------------------------------------------
+age_sq      -5.652e-05  7.401e-05    -0.7637     0.4451     -0.0002   8.856e-05
+age_int         0.0157     0.0114     1.3771     0.1685     -0.0066      0.0379
+ln_spending    -0.5497     0.0086    -64.194     0.0000     -0.5665     -0.5329
+===============================================================================
+
+F-test for Poolability: 2.4373
+P-value: 0.0000
+Distribution: F(3739,7782)
+
+Included effects: Entity, Time",True,,,,,,,
+Blanchett-style,2001-2021,0.0001507549366642028,-0.022421765835499208,-0.060203486115849636,1.459159577499204,0.3482737071179246,20189,4900,,,,,,,,,,,,,,
+Pooled OLS,2001-2021,5.919475389303e-05,-0.01112276360283737,-0.1527052534808488,2.0910255430083997,,20189,4900,0.1363732558734384,2.4199709363720423e-05,0.003525477351599807,0.003379559612777115,,,,,,,,,,
+Fixed Effects,2001-2021,1.0905167918632671e-05,-0.012971066149093026,-0.4995473169872922,,,20189,4900,,3.8570487212272566e-05,0.005606155178708738,0.005437195294941511,0.46379450544412437,"                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:       pct_change_total   R-squared:                        0.4638
+Estimator:                   PanelOLS   R-squared (Between):             -1612.1
+No. Observations:               20189   R-squared (Within):               0.4638
+Date:                Tue, Feb 10 2026   R-squared (Overall):             -631.52
+Time:                        12:32:42   Log-likelihood                    7929.5
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      4407.2
+Entities:                        4900   P-value                           0.0000
+Avg Obs:                       4.1202   Distribution:                 F(3,15286)
+Min Obs:                       1.0000                                           
+Max Obs:                      10.0000   F-statistic (robust):             2857.2
+                                        P-value                           0.0000
+Time periods:                      10   Distribution:                 F(3,15286)
+Avg Obs:                       2018.9                                           
+Min Obs:                       1565.0                                           
+Max Obs:                       2196.0                                           
+                                                                                
+                              Parameter Estimates                              
+===============================================================================
+             Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-------------------------------------------------------------------------------
+age_sq       1.091e-05  3.857e-05     0.2827     0.7774   -6.47e-05   8.651e-05
+age_int        -0.0130     0.0056    -2.3137     0.0207     -0.0240     -0.0020
+ln_spending    -0.4995     0.0054    -91.876     0.0000     -0.5102     -0.4889
+===============================================================================
+
+F-test for Poolability: 2.8168
+P-value: 0.0000
+Distribution: F(4899,15286)
+
+Included effects: Entity",False,,,,,,,
+Random Effects,2001-2021,5.9719650483088524e-05,-0.01244451241561427,-0.2256945095986186,,,20189,4900,,2.56673211537289e-05,0.0037417638938798212,0.0038838682710384594,0.32370742079405346,"                        RandomEffects Estimation Summary                        
+================================================================================
+Dep. Variable:       pct_change_total   R-squared:                        0.2047
+Estimator:              RandomEffects   R-squared (Between):             -0.3055
+No. Observations:               20189   R-squared (Within):               0.3237
+Date:                Tue, Feb 10 2026   R-squared (Overall):              0.1049
+Time:                        12:32:42   Log-likelihood                    2745.8
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      1732.0
+Entities:                        4900   P-value                           0.0000
+Avg Obs:                       4.1202   Distribution:                 F(3,20185)
+Min Obs:                       1.0000                                           
+Max Obs:                      10.0000   F-statistic (robust):             1129.1
+                                        P-value                           0.0000
+Time periods:                      10   Distribution:                 F(3,20185)
+Avg Obs:                       2018.9                                           
+Min Obs:                       1565.0                                           
+Max Obs:                       2196.0                                           
+                                                                                
+                              Parameter Estimates                              
+===============================================================================
+             Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-------------------------------------------------------------------------------
+const           2.9395     0.1419     20.710     0.0000      2.6613      3.2177
+age_sq       5.972e-05  2.567e-05     2.3267     0.0200    9.41e-06      0.0001
+age_int        -0.0124     0.0037    -3.3258     0.0009     -0.0198     -0.0051
+ln_spending    -0.2257     0.0039    -58.111     0.0000     -0.2333     -0.2181
+===============================================================================",,-0.3054541335355614,,,,,,
+Fixed Effects (time),2001-2021,,,-0.5036038992207346,,,20189,4900,,,,0.006166989400059274,0.3126989098243578,"                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:       pct_change_total   R-squared:                        0.4703
+Estimator:                   PanelOLS   R-squared (Between):             -897.17
+No. Observations:               20189   R-squared (Within):               0.3127
+Date:                Tue, Feb 10 2026   R-squared (Overall):             -349.89
+Time:                        12:32:42   Log-likelihood                    8110.1
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      4522.1
+Entities:                        4900   P-value                           0.0000
+Avg Obs:                       4.1202   Distribution:                 F(3,15277)
+Min Obs:                       1.0000                                           
+Max Obs:                      10.0000   F-statistic (robust):             2232.8
+                                        P-value                           0.0000
+Time periods:                      10   Distribution:                 F(3,15277)
+Avg Obs:                       2018.9                                           
+Min Obs:                       1565.0                                           
+Max Obs:                       2196.0                                           
+                                                                                
+                              Parameter Estimates                              
+===============================================================================
+             Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-------------------------------------------------------------------------------
+age_sq       1.062e-05    4.4e-05     0.2412     0.8094  -7.564e-05   9.687e-05
+age_int         0.0094     0.0069     1.3757     0.1689     -0.0040      0.0229
+ln_spending    -0.5036     0.0062    -81.661     0.0000     -0.5157     -0.4915
+===============================================================================
+
+F-test for Poolability: 2.9168
+P-value: 0.0000
+Distribution: F(4908,15277)
+
+Included effects: Entity, Time",True,,,,,,,
+Correlated RE (Mundlak),2001-2021,1.0905167918636949e-05,-0.012971066149093645,-0.49954731698729177,,,20189,4900,,3.857430929120752e-05,0.005606710711425728,0.005437734084550891,0.46379450544412437,"                        RandomEffects Estimation Summary                        
+================================================================================
+Dep. Variable:       pct_change_total   R-squared:                        0.4148
+Estimator:              RandomEffects   R-squared (Between):              0.0415
+No. Observations:               20189   R-squared (Within):               0.4638
+Date:                Tue, Feb 10 2026   R-squared (Overall):              0.3950
+Time:                        12:32:42   Log-likelihood                    5842.2
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      2384.0
+Entities:                        4900   P-value                           0.0000
+Avg Obs:                       4.1202   Distribution:                 F(6,20182)
+Min Obs:                       1.0000                                           
+Max Obs:                      10.0000   F-statistic (robust):             1503.5
+                                        P-value                           0.0000
+Time periods:                      10   Distribution:                 F(6,20182)
+Avg Obs:                       2018.9                                           
+Min Obs:                       1565.0                                           
+Max Obs:                       2196.0                                           
+                                                                                
+                                Parameter Estimates                                 
+====================================================================================
+                  Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+------------------------------------------------------------------------------------
+const                0.8997     0.1986     4.5297     0.0000      0.5104      1.2890
+age_sq            1.091e-05  3.857e-05     0.2827     0.7774   -6.47e-05   8.651e-05
+age_int             -0.0130     0.0056    -2.3135     0.0207     -0.0240     -0.0020
+ln_spending         -0.4995     0.0054    -91.867     0.0000     -0.5102     -0.4889
+age_sq_mean       8.112e-05  5.318e-05     1.5253     0.1272  -2.312e-05      0.0002
+age_int_mean        -0.0011     0.0078    -0.1451     0.8846     -0.0164      0.0141
+ln_spending_mean     0.4650     0.0063     73.707     0.0000      0.4527      0.4774
+====================================================================================",,0.041482644372458966,8.111813976681855e-05,-0.001127307107402258,0.46503039142383656,5.3182171623803216e-05,0.007766850126554206,0.006309205070835124

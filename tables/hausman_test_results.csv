@@ -1,0 +1,5 @@
+period,chi2_statistic,degrees_of_freedom,p_value_nominal,recommendation,note
+2001-2009,37031503039.45679,3,0.0,Fixed Effects,Diagnostic only; p-value assumes homoskedastic errors and is not valid under clustering
+2005-2021,5450.859123063145,3,0.0,Fixed Effects,Diagnostic only; p-value assumes homoskedastic errors and is not valid under clustering
+2011-2021,4612.08337354082,3,0.0,Fixed Effects,Diagnostic only; p-value assumes homoskedastic errors and is not valid under clustering
+2001-2021,5346.756843432038,3,0.0,Fixed Effects,Diagnostic only; p-value assumes homoskedastic errors and is not valid under clustering
