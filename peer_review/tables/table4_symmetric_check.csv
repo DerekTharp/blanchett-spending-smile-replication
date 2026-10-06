@@ -1,0 +1,3 @@
+definition,aggregation,ln_spending_coef
+lagged,household mean of interval ln(S_{t-1}),-0.026074902690659662
+current,household mean of interval ln(S_t),0.023308835630414693

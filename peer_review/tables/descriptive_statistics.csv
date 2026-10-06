@@ -1,0 +1,22 @@
+Variable,Mean,SD,Median,Min,Max,N
+Panel Structure,,,,,,
+  Households,,,,,,"4,900"
+  Household-interval observations,,,,,,"20,189"
+  Intervals per household,4.1,2.7,4,1,10,
+,,,,,,
+Demographics,,,,,,
+  Age (household average),71.6,7.7,71,60,90,"20,189"
+  Partnered (%),54.6,,,,,"20,176"
+  Household size,2.0,1.0,2,1,12,"20,189"
+,,,,,,
+Spending (2009 $),,,,,,
+  Real spending (current wave),"39,482","27,005","32,002","10,001","293,790","20,189"
+  Real spending (lagged),"41,034","28,161","33,177","10,002","381,890","20,189"
+  Annualized spending change (%),0.8,24.3,-2.0,-74.0,215.8,"20,189"
+,,,,,,
+Wealth (2009 $),,,,,,
+  Total wealth,"506,853","965,834","226,288","-373,868","39,048,746","20,189"
+,,,,,,
+Health,,,,,,
+"  Self-rated health (1=exc, 5=poor)",3.03,1.00,3,1,5,"20,182"
+  Fair/poor health (%),31.3,,,,,"20,182"

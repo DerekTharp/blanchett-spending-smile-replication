@@ -1,0 +1,5 @@
+period,chi2_statistic,degrees_of_freedom,p_value_nominal,recommendation,note
+2001-2009,3946.506462254571,3,0.0,Not inferential (clustered p-value invalid; rely on CRE/Mundlak),Diagnostic only; p-value assumes homoskedastic errors and is not valid under clustering
+2005-2021,4970.894890921174,3,0.0,Not inferential (clustered p-value invalid; rely on CRE/Mundlak),Diagnostic only; p-value assumes homoskedastic errors and is not valid under clustering
+2011-2021,4261.07518472377,3,0.0,Not inferential (clustered p-value invalid; rely on CRE/Mundlak),Diagnostic only; p-value assumes homoskedastic errors and is not valid under clustering
+2001-2021,5346.756843432038,3,0.0,Not inferential (clustered p-value invalid; rely on CRE/Mundlak),Diagnostic only; p-value assumes homoskedastic errors and is not valid under clustering

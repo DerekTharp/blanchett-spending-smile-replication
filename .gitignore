@@ -1,0 +1,69 @@
+# Research-project .gitignore template (copy to a new repo before the first commit;
+# extend per project — never weaken the data rules).
+
+# --- Licensed / restricted data: never committed, wherever it sits ---------------------
+data/raw/*
+data/processed/*
+!data/processed/README.md
+raw/*
+HRS/
+HRS */
+*.dta
+*.sas7bdat
+*.sav
+*.zsav
+*.por
+*.xpt
+*.da
+*.dct
+*.parquet
+*.feather
+*.rds
+*.RData
+*.rda
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.db
+*.sqlite
+*.sqlite3
+randhrs*/
+randcams*/
+randfat*/
+!data/raw/README.md
+
+# --- Secrets ---------------------------------------------------------------------------
+.env
+.env.*
+tokens.json
+token.json
+credentials*
+*.pem
+*.p12
+secrets.*
+
+# --- Machine noise ---------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+.Rhistory
+.RData
+.Rproj.user/
+
+# --- Large derived artifacts (commit tables/figures deliberately, not caches) -----------
+data/processed/*.parquet
+data/processed/*.pkl
+cache/
+tmp/
+
+# --- Editors ---
+.idea/
+.vscode/
+*.swp

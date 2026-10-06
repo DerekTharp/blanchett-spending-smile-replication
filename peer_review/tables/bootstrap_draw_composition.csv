@@ -1,0 +1,2 @@
+n_draws,n_turning_point_in_range,n_curvature_nonpositive,n_curvature_positive_tp_above_120,n_curvature_positive_tp_below_50
+1000,753,197,50,0
